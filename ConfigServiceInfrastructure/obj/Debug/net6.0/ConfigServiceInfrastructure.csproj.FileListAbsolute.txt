@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\bin\Debug\net6.0\ConfigServiceInfrastructure.deps.json
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\bin\Debug\net6.0\ConfigServiceInfrastructure.dll
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\bin\Debug\net6.0\ConfigServiceInfrastructure.pdb
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\bin\Debug\net6.0\ConfigServiceDomain.dll
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\bin\Debug\net6.0\ConfigServiceDomain.pdb
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.AssemblyInfo.cs
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.csproj.CopyComplete
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.dll
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\refint\ConfigServiceInfrastructure.dll
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.pdb
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ref\ConfigServiceInfrastructure.dll

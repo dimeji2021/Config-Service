@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="7.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConfigServiceDomain\ConfigServiceDomain.csproj" />
+    <ProjectReference Include="..\ConfigServiceInfrastructure\ConfigServiceInfrastructure.csproj" />
   </ItemGroup>
 
 </Project>

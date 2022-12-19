@@ -1,5 +1,6 @@
 ﻿using ConfigServiceDomain.Dto;
 using ConfigServiceDomain.Model;
+using ConfigServiceInfrastructure.IRepository;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace ConfigServiceInfrastructure.Repository
 {
-    public class SettingRepository
+    public class SettingRepository : ISettingRepository
     {
         private SettingDbContext _context;
         public SettingRepository(SettingDbContext setting)
@@ -27,10 +28,11 @@ namespace ConfigServiceInfrastructure.Repository
         {
             return _context.Settings.ToList();
         }
-        public async Task<Guid> UpdateSettings(Guid Id, Setting model)
+        public async Task<Guid> UpdateSettings(Guid Id, SettingDto dtoModel)
         {
             //_context.Attach(model).State = EntityState.Modified;
-            _context.Entry(_context.Settings.FirstOrDefault(s => s.Id == model.Id)).CurrentValues.SetValues(model);
+            var model = new Setting(dtoModel);
+            _context.Entry(_context.Settings.FirstOrDefault(s => s.Id == Id)).CurrentValues.SetValues(model);
             await _context.SaveChangesAsync();
             return model.Id;
         }
