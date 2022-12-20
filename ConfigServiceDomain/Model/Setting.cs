@@ -16,13 +16,15 @@ namespace ConfigServiceDomain.Model
         public bool AllowTextCopy { get; set; }
         public bool EnableSupplyAlert { get; set; }
         public bool EnableLowCardAlert { get; set; }
-        public Color Color { get; set; }
+        //public Color Color { get; set; }
         public NotificationType NotificationType { get; set; }
         public bool EnableNotification { get; set; }
         public ThemeColor ThemeColor { get; set; }
         public DateTime LastMigrationTime { get; set; }
-        private Random rnd = new Random();
+        public Setting()
+        {
 
+        }
         public Setting(SettingDto settingDto)
         {
             Id = Guid.NewGuid();
@@ -30,7 +32,7 @@ namespace ConfigServiceDomain.Model
             AllowTextCopy = settingDto.AllowTextCopy;
             EnableSupplyAlert = settingDto.EnableSupplyAlert;
             EnableLowCardAlert = settingDto.EnableLowCardAlert;
-            Color = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256)); 
+            //Color = Color.White; 
             NotificationType = settingDto.NotificationType;
             EnableNotification = settingDto.EnableNotification;
             ThemeColor = settingDto.ThemeColor;

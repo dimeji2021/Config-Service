@@ -16,9 +16,9 @@ namespace ConfigService.Controllers
             _settingRepository = settingRepository;
         }
         [HttpPost("CreateSettings")]
-        public IActionResult CreateStting([FromBody] SettingDto request)
+        public async Task<IActionResult> CreateStting([FromBody] SettingDto request)
         {
-            return Ok(_settingRepository.CreateSettings(request));
+            return Ok(await _settingRepository.CreateSettings(request));
         }
         [HttpGet("GetSettings")]
         public IActionResult GetSettings()
@@ -26,9 +26,9 @@ namespace ConfigService.Controllers
             return Ok(_settingRepository.GetSettings());
         }
         [HttpPatch("UpdateSettings/{Id}")]
-        public IActionResult UpdateSettings(Guid Id, SettingDto request)
+        public async Task<IActionResult> UpdateSettings([FromRoute] Guid Id, [FromBody] SettingDto request)
         {
-            return Ok(_settingRepository.UpdateSettings(Id, request));
+            return Ok(await _settingRepository.UpdateSettings(Id, request));
         }
     }
 }

@@ -28,13 +28,12 @@ namespace ConfigServiceInfrastructure.Repository
         {
             return _context.Settings.ToList();
         }
-        public async Task<Guid> UpdateSettings(Guid Id, SettingDto dtoModel)
+        public async Task<Guid> UpdateSettings(Guid Id, SettingDto model)
         {
             //_context.Attach(model).State = EntityState.Modified;
-            var model = new Setting(dtoModel);
             _context.Entry(_context.Settings.FirstOrDefault(s => s.Id == Id)).CurrentValues.SetValues(model);
             await _context.SaveChangesAsync();
-            return model.Id;
+            return Id;
         }
     }
 }

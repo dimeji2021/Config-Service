@@ -13,3 +13,5 @@ C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\ne
 C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\refint\ConfigServiceInfrastructure.dll
 C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.pdb
 C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ref\ConfigServiceInfrastructure.dll
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\bin\Debug\net6.0\ConfigServiceInfrastructure.runtimeconfig.json
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.genruntimeconfig.cache
