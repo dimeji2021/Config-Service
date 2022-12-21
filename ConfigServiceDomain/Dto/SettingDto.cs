@@ -7,6 +7,7 @@
         public bool EnableSupplyAlert { get; set; }
         public bool EnableLowCardAlert { get; set; }
         public bool EnableNotification { get; set; }
+        public int ReOrderLevel { get; set; }
         public DateTime LastMigrationTime { get; set; }
     }
 }

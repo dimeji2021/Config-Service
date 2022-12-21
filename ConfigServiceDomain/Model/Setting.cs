@@ -11,6 +11,7 @@ namespace ConfigServiceDomain.Model
         public bool EnableSupplyAlert { get; set; }
         public bool EnableLowCardAlert { get; set; }
         public bool EnableNotification { get; set; }
+        public int ReOrderLevel { get; set; }
         public DateTime LastMigrationTime { get; set; }
         public Setting()
         {
@@ -24,6 +25,7 @@ namespace ConfigServiceDomain.Model
             EnableSupplyAlert = settingDto.EnableSupplyAlert;
             EnableLowCardAlert = settingDto.EnableLowCardAlert;
             EnableNotification = settingDto.EnableNotification;
+            ReOrderLevel = settingDto.ReOrderLevel;
             LastMigrationTime = settingDto.LastMigrationTime;
         }
     }

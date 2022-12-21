@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ConfigServiceInfrastructure.Migrations
 {
     [DbContext(typeof(SettingDbContext))]
-    [Migration("20221220090413_initial")]
+    [Migration("20221221094109_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,8 +33,9 @@ namespace ConfigServiceInfrastructure.Migrations
                     b.Property<bool>("AllowTextCopy")
                         .HasColumnType("bit");
 
-                    b.Property<Guid>("CardIssuerId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("EmailAddress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("EnableLowCardAlert")
                         .HasColumnType("bit");
@@ -48,10 +49,7 @@ namespace ConfigServiceInfrastructure.Migrations
                     b.Property<DateTime>("LastMigrationTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("NotificationType")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ThemeColor")
+                    b.Property<int>("ReOrderLevel")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
