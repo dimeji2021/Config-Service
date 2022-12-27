@@ -15,3 +15,20 @@ C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\ne
 C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ref\ConfigServiceInfrastructure.dll
 C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\bin\Debug\net6.0\ConfigServiceInfrastructure.runtimeconfig.json
 C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.genruntimeconfig.cache
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.csproj.AssemblyReference.cache
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.AssemblyInfoInputs.cache
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.AssemblyInfo.cs
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.dll
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\refint\ConfigServiceInfrastructure.dll
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.pdb
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\bin\Debug\net6.0\ConfigServiceInfrastructure.deps.json
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\bin\Debug\net6.0\ConfigServiceInfrastructure.runtimeconfig.json
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\bin\Debug\net6.0\ConfigServiceInfrastructure.dll
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\bin\Debug\net6.0\ConfigServiceInfrastructure.pdb
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\bin\Debug\net6.0\ConfigServiceDomain.dll
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\bin\Debug\net6.0\ConfigServiceDomain.pdb
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.csproj.CopyComplete
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ConfigServiceInfrastructure.genruntimeconfig.cache
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceInfrastructure\obj\Debug\net6.0\ref\ConfigServiceInfrastructure.dll

@@ -1,5 +1,6 @@
 ﻿using ConfigServiceDomain.Dto;
 using ConfigServiceDomain.Model;
+using Microsoft.AspNetCore.JsonPatch;
 
 namespace ConfigServiceInfrastructure.IRepository
 {
@@ -7,6 +8,6 @@ namespace ConfigServiceInfrastructure.IRepository
     {
         Task<Guid> CreateSettings(SettingDto dtoModel);
         IEnumerable<Setting> GetSettings();
-        Task<Guid> UpdateSettings(Guid Id, SettingDto model);
+        Task<Guid> UpdateSettings(Guid Id, JsonPatchDocument model);
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace ConfigServiceDomain.Dto
+﻿using ConfigServiceDomain.Model;
+
+namespace ConfigServiceDomain.Dto
 {
     public class SettingDto
     {

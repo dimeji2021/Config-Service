@@ -1,6 +1,7 @@
 ﻿using ConfigServiceDomain.Dto;
 using ConfigServiceDomain.Model;
 using ConfigServiceInfrastructure.IRepository;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -28,11 +29,47 @@ namespace ConfigServiceInfrastructure.Repository
         {
             return _context.Settings.ToList();
         }
-        public async Task<Guid> UpdateSettings(Guid Id, SettingDto model)
+        public async Task<Guid> UpdateSettings(Guid Id, JsonPatchDocument model)
         {
-            _context.Entry(_context.Settings.FirstOrDefault(s => s.Id == Id)).CurrentValues.SetValues(model);
-            await _context.SaveChangesAsync();
-            return Id;
+            var setting = await _context.Settings.FindAsync(Id);
+            if (setting is not null)
+            {
+                model.ApplyTo(setting);
+                await _context.SaveChangesAsync();
+                return Id;
+            }
+            return Guid.Empty;
         }
+
+        // Trying to authomaticaly send email for reorder level
+
+        
+        //public IEnumerable<string> CheckAddressDueForReorder(int level)
+        //{
+        //    return _context.Settings.Where(s => s.ReOrderLevel <= level).Select(e => e.EmailAddress);
+        //}
+
+
+        //Timer timer = new Timer(e => SendEmail(), null, TimeSpan.Zero, TimeSpan.FromDays(1));
+
+        //// There should be a method and suscribe to message broker to get the stocklevel,
+        //// And pass it to the checkAddressDuefor Reorder
+        ////Down inside the send email method
+        //static void SendEmail()
+        //{
+        //    var address = CheckAddressDueForReorder(Orderlevel);
+        //    if (address is not null)
+        //    {
+        //        Task func = new Task(() =>
+        //           {
+        //               foreach (var email in address)
+        //               {
+        //                   //send email
+        //                   //The notification service should be called from here
+        //               };
+        //           });
+        //        func.Start();
+        //    }
+        //}
     }
 }

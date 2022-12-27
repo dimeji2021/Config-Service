@@ -1,4 +1,5 @@
 ﻿using ConfigServiceDomain.Dto;
+using ConfigServiceDomain.Model;
 using ConfigServiceInfrastructure.IRepository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
@@ -26,9 +27,10 @@ namespace ConfigService.Controllers
             return Ok(_settingRepository.GetSettings());
         }
         [HttpPatch("UpdateSettings/{Id}")]
-        public async Task<IActionResult> UpdateSettings([FromRoute] Guid Id, [FromBody] SettingDto request)
+        public async Task<IActionResult> UpdateSettings([FromRoute] Guid Id, [FromBody] JsonPatchDocument requestUpdate)
         {
-            return Ok(await _settingRepository.UpdateSettings(Id, request));
+            var res = await _settingRepository.UpdateSettings(Id, requestUpdate);
+            return res.Equals(Guid.Empty) ? NotFound("setting not found, check that you enter a correct Id") : Ok(res);
         }
     }
 }
