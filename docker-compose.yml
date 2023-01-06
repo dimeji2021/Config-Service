@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  configservice:
+    image: ${DOCKER_REGISTRY-}configservice
+    build:
+      context: .
+      dockerfile: ConfigService/Dockerfile
+  
