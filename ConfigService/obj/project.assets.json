@@ -591,6 +591,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Pipelines.Sockets.Unofficial/2.2.2": {
         "type": "package",
         "dependencies": {
@@ -623,6 +624,8 @@
           }
         }
       },
+=======
+>>>>>>> c7717e5abbc201e21f4da42eebed42c9014cf8d0
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -1013,7 +1016,11 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "ConfigServiceDomain": "1.0.0",
+<<<<<<< HEAD
           "Microsoft.AspNetCore.JsonPatch": "7.0.1",
+=======
+          "Microsoft.AspNetCore.JsonPatch": "6.0.9",
+>>>>>>> c7717e5abbc201e21f4da42eebed42c9014cf8d0
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.9",
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
@@ -1945,6 +1952,7 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Pipelines.Sockets.Unofficial/2.2.2": {
       "sha512": "Bhk0FWxH1paI+18zr1g5cTL+ebeuDcBCR+rRFO+fKEhretgjs7MF2Mc1P64FGLecWp4zKCUOPzngBNrqVyY7Zg==",
       "type": "package",
@@ -1989,6 +1997,8 @@
         "stackexchange.redis.nuspec"
       ]
     },
+=======
+>>>>>>> c7717e5abbc201e21f4da42eebed42c9014cf8d0
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -2622,24 +2632,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\IGate\\ConfigService\\ConfigService\\ConfigService.csproj",
+      "projectUniqueName": "C:\\Users\\Kehinde Aregbesola\\Desktop\\IGate\\ConfigService\\ConfigService\\ConfigService.csproj",
       "projectName": "ConfigService",
-      "projectPath": "C:\\Users\\hp\\Desktop\\IGate\\ConfigService\\ConfigService\\ConfigService.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Desktop\\IGate\\ConfigService\\ConfigService\\obj\\",
+      "projectPath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\IGate\\ConfigService\\ConfigService\\ConfigService.csproj",
+      "packagesPath": "C:\\Users\\Kehinde Aregbesola\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\IGate\\ConfigService\\ConfigService\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Kehinde Aregbesola\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2647,18 +2652,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\hp\\Desktop\\IGate\\ConfigService\\ConfigServiceDomain\\ConfigServiceDomain.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\IGate\\ConfigService\\ConfigServiceDomain\\ConfigServiceDomain.csproj"
+            "C:\\Users\\Kehinde Aregbesola\\Desktop\\IGate\\ConfigService\\ConfigServiceDomain\\ConfigServiceDomain.csproj": {
+              "projectPath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\IGate\\ConfigService\\ConfigServiceDomain\\ConfigServiceDomain.csproj"
             },
-            "C:\\Users\\hp\\Desktop\\IGate\\ConfigService\\ConfigServiceInfrastructure\\ConfigServiceInfrastructure.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\IGate\\ConfigService\\ConfigServiceInfrastructure\\ConfigServiceInfrastructure.csproj"
+            "C:\\Users\\Kehinde Aregbesola\\Desktop\\IGate\\ConfigService\\ConfigServiceInfrastructure\\ConfigServiceInfrastructure.csproj": {
+              "projectPath": "C:\\Users\\Kehinde Aregbesola\\Desktop\\IGate\\ConfigService\\ConfigServiceInfrastructure\\ConfigServiceInfrastructure.csproj"
             }
           }
         }
@@ -2707,24 +2711,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.7, 6.0.7]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.7, 6.0.7]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.7, 6.0.7]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.7, 6.0.7]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2733,7 +2719,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-preview.7.22377.5\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

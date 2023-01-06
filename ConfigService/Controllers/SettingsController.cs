@@ -27,10 +27,17 @@ namespace ConfigService.Controllers
             return Ok(_settingRepository.GetSettings());
         }
         [HttpPatch("UpdateSettings/{Id}")]
+<<<<<<< HEAD
         public async Task<IActionResult> UpdateSettings([FromRoute] Guid Id, JsonPatchDocument requestUpdate)
         {
             var res = await _settingRepository.UpdateSettings(Id, requestUpdate);
             return res.Equals(Guid.Empty) ? NotFound("setting not found, check that you enter a correct Id") : Ok(res);
+=======
+        public async Task<IActionResult> UpdateSettings([FromRoute] Guid Id, [FromBody] JsonPatchDocument requestUpdate)
+        {
+            var res = await _settingRepository.UpdateSettings(Id, requestUpdate);
+            return res.Equals(Guid.Empty) ? NotFound("setting not found, check that you enter a correct Id") : Ok(res);
+>>>>>>> c7717e5abbc201e21f4da42eebed42c9014cf8d0
         }
     }
 }

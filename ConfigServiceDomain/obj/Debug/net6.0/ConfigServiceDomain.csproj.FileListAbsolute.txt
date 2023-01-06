@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+=======
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceDomain\bin\Debug\net6.0\ConfigServiceDomain.deps.json
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceDomain\bin\Debug\net6.0\ConfigServiceDomain.dll
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceDomain\bin\Debug\net6.0\ConfigServiceDomain.pdb
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ConfigServiceDomain.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ConfigServiceDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ConfigServiceDomain.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ConfigServiceDomain.AssemblyInfo.cs
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ConfigServiceDomain.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ConfigServiceDomain.dll
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\refint\ConfigServiceDomain.dll
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ConfigServiceDomain.pdb
+C:\Users\hp\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ref\ConfigServiceDomain.dll
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceDomain\bin\Debug\net6.0\ConfigServiceDomain.deps.json
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceDomain\bin\Debug\net6.0\ConfigServiceDomain.dll
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceDomain\bin\Debug\net6.0\ConfigServiceDomain.pdb
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ConfigServiceDomain.csproj.AssemblyReference.cache
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ConfigServiceDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ConfigServiceDomain.AssemblyInfoInputs.cache
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ConfigServiceDomain.AssemblyInfo.cs
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ConfigServiceDomain.csproj.CoreCompileInputs.cache
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ConfigServiceDomain.dll
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\refint\ConfigServiceDomain.dll
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ConfigServiceDomain.pdb
+C:\Users\Kehinde Aregbesola\Desktop\IGate\ConfigService\ConfigServiceDomain\obj\Debug\net6.0\ref\ConfigServiceDomain.dll
+>>>>>>> c7717e5abbc201e21f4da42eebed42c9014cf8d0
